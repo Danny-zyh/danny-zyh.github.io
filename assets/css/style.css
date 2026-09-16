@@ -58,35 +58,8 @@ strong {
 
 /**************************************************/
 
-#header {
-    height: 2em;
-    line-height: 2em;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #ddd;
-    position: fixed;
-    top: 0;
-    left: 50% - 500px;
-    z-index: 9999;
-    width: 1000px;
-    background-color: rgba(255, 255, 255, 0.7);
-    backdrop-filter: blur(8px);
-}
-
-#header a {
-    text-decoration: none;
-    color: var(--grey);
-    transition: color 0.3s ease;
-}
-
-#header a:hover {
-    color: var(--blue3);
-}
-
-/**************************************************/
-
 #profile {
-    padding: 90px 30px 10px 30px;
+    padding: 30px 30px 10px 30px;
     border-bottom: 1px solid #ddd;
 }
 
